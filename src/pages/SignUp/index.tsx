@@ -18,7 +18,7 @@ import Button from '../../components/Button';
 
 import { Container, Content, Background, AnimationContainer } from './styles';
 
-interface SignUpFromData {
+interface SignUpFormData {
   name: string;
   email: string;
   password: string;
@@ -30,7 +30,7 @@ const SignUp: React.FC = () => {
   const history = useHistory();
 
   const handleSubmit = useCallback(
-    async (data: SignUpFromData) => {
+    async (data: SignUpFormData) => {
       try {
         formRef.current?.setErrors({});
 
