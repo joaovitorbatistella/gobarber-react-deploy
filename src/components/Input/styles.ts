@@ -40,7 +40,7 @@ export const Container = styled.div<ContainerProps>`
     props.isFocused &&
     css`
       color: #ff9000;
-      border-color: #ff9900;
+      border-color: #ff9000;
     `}
 
   input {
